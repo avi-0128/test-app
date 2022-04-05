@@ -1,0 +1,70 @@
+.container{
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-color: aquamarine; */
+}
+.register-div{
+   
+    background: linear-gradient(45deg , skyblue , pink);
+    width: 350px;
+    padding: 15px;
+    color: white;
+    margin: 100px auto;
+    border-radius: 8%
+}
+
+.register-div h2{
+    text-align: center;
+    font-size: 30px;
+}
+
+.formm-control{
+    font-size: 18px;
+    height: 35px;
+    width: 290px;
+    margin: 5px;
+    outline: none;
+    border: none;
+    background: transparent;
+    color: rgb(78, 123, 129);
+    border-bottom: 2px solid whitesmoke;
+}
+
+.register-button{
+    margin: 10px 0;
+    background: linear-gradient(45deg , skyblue , white);
+    color:  black;
+    font-size: 18px;
+    padding: 8px;
+    border: none;
+    outline: none;
+    width: 290px;
+    box-shadow: 0 0 10px black;
+    border-radius: 5%;
+}
+
+::placeholder{
+    color: rgb(78, 123, 129);
+}
+
+.control-small{
+    background-color: transparent;
+    color: #ec89b9;
+    font-size: 12px;
+    box-shadow: 0 0 5px black;
+}
+
+.login-button{
+    margin: 5px;
+    background: linear-gradient(45deg , skyblue , white);
+    color: black;
+    font-size: 18px;
+    padding: 5px;
+    border: none;
+    outline: none;
+    width: 120px;
+    box-shadow: 0 0 5px black;
+    border-radius: 5%;
+}
+.text-center{
+    background-color: linear-gradient(45deg , red , whitesmoke);
+}
