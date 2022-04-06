@@ -11,7 +11,7 @@ import Password from "./components/Password";
 
 
 function App() {
-  document.title ='mini-wiki movies'
+ 
   return (
     <>
       <BrowserRouter basename={process.env.PUBLIC_URL}>
